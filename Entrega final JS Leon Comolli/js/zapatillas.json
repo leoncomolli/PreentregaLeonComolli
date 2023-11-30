@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Chicago",
+        "descripcion": "asd",
+        "precio": 1500,
+        "img": "chicago.jpg",
+        "altImagen": "Zapatillas Chicago"
+    },
+    {
+        "id": 2,
+        "nombre": "Laser",
+        "descripcion": "asd",
+        "precio": 1000,
+        "img": "laser.jpg",
+        "altImagen": "Zapatillas Laser"
+    },
+    {
+        "id": 3,
+        "nombre": "Gatorade",
+        "descripcion": "asd",
+        "precio": 1250,
+        "img": "gatorade.jpg",
+        "altImagen": "Zapatillas Gatorade"
+    },
+    {
+        "id": 4,
+        "nombre": "Grey",
+        "descripcion": "asd",
+        "precio": 1100,
+        "img": "grey.jpg",
+        "altImagen": "Zapatillas Grey"
+    },
+    {
+        "id": 5,
+        "nombre": "Lava",
+        "descripcion": "asd",
+        "precio": 750,
+        "img": "lava.jpg",
+        "altImagen": "Zapatillas Lava"
+    },
+    {
+        "id": 6,
+        "nombre": "Pinegreen",
+        "descripcion": "asd",
+        "precio": 500,
+        "img": "pinegreen.jpg",
+        "altImagen": "Zapatillas Pinegreen"
+    }
+]

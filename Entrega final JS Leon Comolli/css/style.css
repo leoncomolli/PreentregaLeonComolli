@@ -1,0 +1,154 @@
+.catalogo-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    margin: auto;
+}
+
+.tarjeta-producto{
+    max-width: 300px;
+    text-align: center;
+    background-color: ghostwhite;
+    padding: 70px;
+    box-shadow: 0 0 5px ghostwhite;
+    transition: 200ms;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.tarjeta-producto:hover{
+    translate: 0 -10px;
+    box-shadow: 0 10 5px ghostwhite;
+}
+
+
+.tarjeta-producto img{
+    width: 100%;
+    aspect-ratio: 1.5;
+}
+
+.carrito-container{
+    width: 500px;
+    margin: auto;
+}
+
+.tarjeta-carrito{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.tarjeta-carrito img{
+    height: 100px;
+    aspect-ratio: 1.5;
+}
+
+.tarjeta-carrito h3{
+    width: 130px;
+}
+
+#totales{
+    text-align: center;
+}
+
+
+:root{
+    --color-acento: #ee6130;
+    --color-acento-claro: #ee613033;
+    --color-texto: black;
+  }
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  h3, p{
+    margin: 6px 0;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-texto)
+}
+
+button{
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    border: unset;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a:hover:not(#cart){
+    color: var(--color-acento)
+}
+
+header{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.100);
+    padding: 10 0px;
+    margin-bottom: 10px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+
+header nav div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+}
+
+#cuenta-carrito{
+    background-color:  var(--color-acento);
+    border-radius: 100%;
+    display: inline-block;
+    width: 20px;
+    line-height: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+    position: absolute;
+}
+
+#logo{
+    height: 40px;
+}
+
+header nav img{
+    height: 25px;
+}
+
+footer{
+    margin-top: auto;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.100);
+    text-align: center;
+}
+
+.carrito-container{
+    width: 500px;
+    margin: auto;
+}
+
+.tarjeta-producto img{
+    height: 100px;
+    aspect-ratio: 1.5;
+}
+
+.tarjeta-producto h3{
+    width: 130px;
+}
+
+#totales{
+    text-align: center;
+}
